@@ -1,0 +1,22 @@
+monitor_c3sl/
+│
+├── database/               # Módulo de Persistência
+│   ├── __init__.py         # (Arquivo vazio, indica que é um pacote Python)
+│   └── manager.py          # Classe que gerencia o SQLite
+│
+├── scraper/                # Módulo de Raspagem
+│   ├── __init__.py         # (Arquivo vazio)
+│   └── c3sl.py             # Classe que acessa o site
+│
+├── automation/             # Módulo de Automação
+│   ├── __init__.py         # (Arquivo vazio)
+│   └── scheduler.py        # Classe que gerencia o agendamento
+│
+├── data/                   # Pasta para guardar o arquivo do banco de dados
+│   └── .gitkeep            # (Opcional, só para garantir que a pasta exista)
+├── notifications/
+│   └── telegram_sender.py
+├── main.py                 # Ponto de entrada (executa o programa)
+├── .env                    # variáveis do ambiente
+├── .gitignore              
+└── requirements.txt        # Lista de bibliotecas necessárias
