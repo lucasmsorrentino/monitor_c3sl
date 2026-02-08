@@ -49,6 +49,7 @@ monitor_c3sl/
 ├── LICENSE                 # Licença de uso
 ├── .gitignore              
 └── requirements.txt        # Lista de bibliotecas necessárias
+```
 
 ## ▶️ Como Usar (Instalação e Configuração)
 
